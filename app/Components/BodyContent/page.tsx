@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { IQCard } from "../IQCard/IQCard";
 import { Cards } from "../Cards/page";
-import StepProgressBar from "../SelfImprovement/SelfImprovement";
 import { AdditionalCard } from "../AdditionalCard/AdditionalCard";
 import { Test } from "../Test/Test";
 import { Vacancies } from "../Vacancies/Vacancies";
