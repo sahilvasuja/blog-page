@@ -20,3 +20,18 @@ body {
   color: rgb(var(--foreground-rgb));
 
 }
+/* Add this to your CSS file */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background color */
+}
+
+::-webkit-scrollbar-thumb {
+  
+  background: rgb(158, 58, 158); /* Lighter gray color for the scrollbar */
+  border-radius: 6px; /* Rounded corners */
+  border: 3px solid #f1f1f1; /* Match the track color for a pencil-like appearance */
+}

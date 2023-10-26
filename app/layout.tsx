@@ -19,15 +19,18 @@ export default function RootLayout({
     <html lang="en" >
     
       <body >
-        <div className='bg-purple-400'>
+        <div className='bg-purple-100 py-12'>
+
+      
+        <div className=' w-9/12 items-center bg-white py-6 mx-auto'>
        
         <Header />
-        <div className='bg-white p-6'>
+        <div className='bg-white p-6 w-11/12 flex flex-col items-center justify-center mx-auto'>
           {children}
         </div>
       
         </div>
-       
+        </div>
         </body>
     </html>
   )
